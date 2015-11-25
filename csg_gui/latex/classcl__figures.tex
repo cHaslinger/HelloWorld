@@ -1,0 +1,216 @@
+\hypertarget{classcl__figures}{}\section{cl\+\_\+figures Class Reference}
+\label{classcl__figures}\index{cl\+\_\+figures@{cl\+\_\+figures}}
+Inheritance diagram for cl\+\_\+figures\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{classcl__figures}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcl__figures_ae32a5f74827021284748bb1f93ed88c0}{cl\+\_\+figures} ()
+\begin{DoxyCompactList}\small\item\em Default Constructor. \end{DoxyCompactList}\item 
+\hyperlink{classcl__figures_a7d40c61a6f518c59a7e4aebdbaac9ea2}{cl\+\_\+figures} (float pos\+X, float pos\+Y, float pos\+Z)
+\begin{DoxyCompactList}\small\item\em Parameter Construktor (Geometrisches Objekt) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcl__figures_af1c498c43e5f302f9701f99d4407e6f0}{set\+Pos\+X} (float pos\+X)
+\begin{DoxyCompactList}\small\item\em (void) set\+Pos\+X, set\+Pos\+Y, set\+Pos\+Z \end{DoxyCompactList}\item 
+void \hyperlink{classcl__figures_ae07156aefb81f1a9b460e743f8f8c410}{set\+Pos\+Y} (float pos\+Y)
+\item 
+\hypertarget{classcl__figures_aaf722642edb1bd71e56e5005ad509182}{}void {\bfseries set\+Pos\+Z} (float pos\+Z)\label{classcl__figures_aaf722642edb1bd71e56e5005ad509182}
+
+\end{DoxyCompactItemize}
+
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcl__figures_a00276ccac945306e2c65c0dcc7a7f558}{move\+To} (float pos\+X, float pos\+Y, float pos\+Z)
+\begin{DoxyCompactList}\small\item\em (void) move\+To \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{classcl__figures_a4aff7e34bc5d177eb6332d1a40ea69ca}{get\+Pos\+X} ()
+\begin{DoxyCompactList}\small\item\em (float) get\+X, get\+Y, get\+Z \end{DoxyCompactList}\item 
+\hypertarget{classcl__figures_a8f5e37378abacd6075ab9df52abc109d}{}float {\bfseries get\+Pos\+Y} ()\label{classcl__figures_a8f5e37378abacd6075ab9df52abc109d}
+
+\item 
+\hypertarget{classcl__figures_a5e4861620e8f28d19d5ac29e71792b46}{}float {\bfseries get\+Pos\+Z} ()\label{classcl__figures_a5e4861620e8f28d19d5ac29e71792b46}
+
+\end{DoxyCompactItemize}
+
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+std\+::vector$<$ float $>$ \hyperlink{classcl__figures_a8db478de16f1fa9005f66c821f1c9231}{m\+\_\+center\+Point}
+\item 
+std\+::vector$<$ float $>$ \hyperlink{classcl__figures_a2213b88adc79462eb87457ffb18b17a2}{m\+\_\+pos}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcl__figures_ae32a5f74827021284748bb1f93ed88c0}{}\index{cl\+\_\+figures@{cl\+\_\+figures}!cl\+\_\+figures@{cl\+\_\+figures}}
+\index{cl\+\_\+figures@{cl\+\_\+figures}!cl\+\_\+figures@{cl\+\_\+figures}}
+\subsubsection[{cl\+\_\+figures()}]{\setlength{\rightskip}{0pt plus 5cm}cl\+\_\+figures\+::cl\+\_\+figures (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcl__figures_ae32a5f74827021284748bb1f93ed88c0}
+
+
+Default Constructor. 
+
+Default Construktor. \hypertarget{classcl__figures_a7d40c61a6f518c59a7e4aebdbaac9ea2}{}\index{cl\+\_\+figures@{cl\+\_\+figures}!cl\+\_\+figures@{cl\+\_\+figures}}
+\index{cl\+\_\+figures@{cl\+\_\+figures}!cl\+\_\+figures@{cl\+\_\+figures}}
+\subsubsection[{cl\+\_\+figures(float pos\+X, float pos\+Y, float pos\+Z)}]{\setlength{\rightskip}{0pt plus 5cm}cl\+\_\+figures\+::cl\+\_\+figures (
+\begin{DoxyParamCaption}
+\item[{float}]{pos\+X, }
+\item[{float}]{pos\+Y, }
+\item[{float}]{pos\+Z}
+\end{DoxyParamCaption}
+)}\label{classcl__figures_a7d40c61a6f518c59a7e4aebdbaac9ea2}
+
+
+Parameter Construktor (Geometrisches Objekt) 
+
+Ein geometrisches Objekt wird initialisiert durch Angabe einer neuen Position 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em pos\+X} & (float) Position auf x-\/\+Achse \\
+\hline
+\mbox{\tt in}  & {\em pos\+Y} & (float) Position auf y-\/\+Achse \\
+\hline
+\mbox{\tt in}  & {\em pos\+Z} & /float) Position auf z-\/\+Achse\\
+\hline
+\end{DoxyParams}
+Ein geometrisches Objekt wird initialisiert durch Angabe einer Position 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em pos\+X} & (float) Position auf x-\/\+Achse \\
+\hline
+\mbox{\tt in}  & {\em pos\+Y} & (float) Position auf y-\/\+Achse \\
+\hline
+\mbox{\tt in}  & {\em pos\+Z} & /float) Position auf z-\/\+Achse \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcl__figures_a4aff7e34bc5d177eb6332d1a40ea69ca}{}\index{cl\+\_\+figures@{cl\+\_\+figures}!get\+Pos\+X@{get\+Pos\+X}}
+\index{get\+Pos\+X@{get\+Pos\+X}!cl\+\_\+figures@{cl\+\_\+figures}}
+\subsubsection[{get\+Pos\+X()}]{\setlength{\rightskip}{0pt plus 5cm}float cl\+\_\+figures\+::get\+Pos\+X (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcl__figures_a4aff7e34bc5d177eb6332d1a40ea69ca}
+
+
+(float) get\+X, get\+Y, get\+Z 
+
+Ermittelt die Werte für die Position (x,y,z) 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt out}  & {\em m\+\_\+pos} & Position \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+m\+\_\+pos\mbox{[}0\mbox{]} 
+
+m\+\_\+pos\mbox{[}1\mbox{]} 
+
+m\+\_\+pos\mbox{[}2\mbox{]} 
+\end{DoxyReturn}
+\hypertarget{classcl__figures_a00276ccac945306e2c65c0dcc7a7f558}{}\index{cl\+\_\+figures@{cl\+\_\+figures}!move\+To@{move\+To}}
+\index{move\+To@{move\+To}!cl\+\_\+figures@{cl\+\_\+figures}}
+\subsubsection[{move\+To(float pos\+X, float pos\+Y, float pos\+Z)}]{\setlength{\rightskip}{0pt plus 5cm}void cl\+\_\+figures\+::move\+To (
+\begin{DoxyParamCaption}
+\item[{float}]{pos\+X, }
+\item[{float}]{pos\+Y, }
+\item[{float}]{pos\+Z}
+\end{DoxyParamCaption}
+)}\label{classcl__figures_a00276ccac945306e2c65c0dcc7a7f558}
+
+
+(void) move\+To 
+
+Veraendert die Position des Objekts \begin{DoxySeeAlso}{See also}
+\hyperlink{classcl__figures_af1c498c43e5f302f9701f99d4407e6f0}{set\+Pos\+X()} 
+
+\hyperlink{classcl__figures_ae07156aefb81f1a9b460e743f8f8c410}{set\+Pos\+Y()} 
+
+set\+Pos\+Z() 
+\end{DoxySeeAlso}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em pos\+X} & (float) zugewiesener Wert \\
+\hline
+\mbox{\tt in}  & {\em pos\+Y} & (float) zugewiesener Wert \\
+\hline
+\mbox{\tt in}  & {\em pos\+Z} & (float) zugewiesener Wert \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcl__figures_af1c498c43e5f302f9701f99d4407e6f0}{}\index{cl\+\_\+figures@{cl\+\_\+figures}!set\+Pos\+X@{set\+Pos\+X}}
+\index{set\+Pos\+X@{set\+Pos\+X}!cl\+\_\+figures@{cl\+\_\+figures}}
+\subsubsection[{set\+Pos\+X(float pos\+X)}]{\setlength{\rightskip}{0pt plus 5cm}void cl\+\_\+figures\+::set\+Pos\+X (
+\begin{DoxyParamCaption}
+\item[{float}]{pos\+X}
+\end{DoxyParamCaption}
+)}\label{classcl__figures_af1c498c43e5f302f9701f99d4407e6f0}
+
+
+(void) set\+Pos\+X, set\+Pos\+Y, set\+Pos\+Z 
+
+Zuweisung der Position der x-\/, y-\/ bzw. z-\/\+Achse 
+\begin{DoxyParams}[1]{Parameters}
+ & {\em m\+\_\+pos} & (vector$<$float$>$) Position \\
+\hline
+\mbox{\tt in}  & {\em pos\+X} & (float) zugewiesener Wert \\
+\hline
+\mbox{\tt in}  & {\em pos\+Y} & (float) zugewiesener Wert \\
+\hline
+\mbox{\tt in}  & {\em pos\+Z} & (float) zugewiesener Wert\\
+\hline
+\end{DoxyParams}
+Zuweisung der Position der x bzw. y-\/\+Achse 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em m\+\_\+pos} & (vector$<$float$>$) Position \\
+\hline
+\mbox{\tt in}  & {\em pos\+X} & (float) zugewiesener Wert \\
+\hline
+\mbox{\tt in}  & {\em pos\+Y} & (float) zugewiesener Wert \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcl__figures_ae07156aefb81f1a9b460e743f8f8c410}{}\index{cl\+\_\+figures@{cl\+\_\+figures}!set\+Pos\+Y@{set\+Pos\+Y}}
+\index{set\+Pos\+Y@{set\+Pos\+Y}!cl\+\_\+figures@{cl\+\_\+figures}}
+\subsubsection[{set\+Pos\+Y(float pos\+Y)}]{\setlength{\rightskip}{0pt plus 5cm}void cl\+\_\+figures\+::set\+Pos\+Y (
+\begin{DoxyParamCaption}
+\item[{float}]{pos\+Y}
+\end{DoxyParamCaption}
+)}\label{classcl__figures_ae07156aefb81f1a9b460e743f8f8c410}
+Rahmenbedingungen? 
+
+\subsection{Member Data Documentation}
+\hypertarget{classcl__figures_a8db478de16f1fa9005f66c821f1c9231}{}\index{cl\+\_\+figures@{cl\+\_\+figures}!m\+\_\+center\+Point@{m\+\_\+center\+Point}}
+\index{m\+\_\+center\+Point@{m\+\_\+center\+Point}!cl\+\_\+figures@{cl\+\_\+figures}}
+\subsubsection[{m\+\_\+center\+Point}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$float$>$ cl\+\_\+figures\+::m\+\_\+center\+Point\hspace{0.3cm}{\ttfamily [protected]}}\label{classcl__figures_a8db478de16f1fa9005f66c821f1c9231}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em m\+\_\+center\+Point} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{classcl__figures_a2213b88adc79462eb87457ffb18b17a2}{}\index{cl\+\_\+figures@{cl\+\_\+figures}!m\+\_\+pos@{m\+\_\+pos}}
+\index{m\+\_\+pos@{m\+\_\+pos}!cl\+\_\+figures@{cl\+\_\+figures}}
+\subsubsection[{m\+\_\+pos}]{\setlength{\rightskip}{0pt plus 5cm}std\+::vector$<$float$>$ cl\+\_\+figures\+::m\+\_\+pos\hspace{0.3cm}{\ttfamily [protected]}}\label{classcl__figures_a2213b88adc79462eb87457ffb18b17a2}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em m\+\_\+pos} & (vector$<$float$>$) Position des Kreises \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+cl\+\_\+figures.\+h\item 
+cl\+\_\+figures.\+cpp\end{DoxyCompactItemize}

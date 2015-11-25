@@ -1,0 +1,130 @@
+\hypertarget{classcl__ball}{}\section{cl\+\_\+ball Class Reference}
+\label{classcl__ball}\index{cl\+\_\+ball@{cl\+\_\+ball}}
+
+
+Inheritance diagram for cl\+\_\+ball\+:
+% FIG 0
+
+
+Collaboration diagram for cl\+\_\+ball\+:
+% FIG 1
+\subsection*{Public Member Functions}
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classcl__ball_a097ce75b4ce4af7534abe10aa71bf918}{cl\+\_\+ball} ()
+\begin{DoxyCompactList}\small\item\em Default Construtor. \end{DoxyCompactList}\item 
+\hyperlink{classcl__ball_acf320252a7845c15643e62c8051b306d}{cl\+\_\+ball} (std\+::vector$<$ int $>$ m\+\_\+center\+Point, float m\+\_\+radius)
+\begin{DoxyCompactList}\small\item\em Parameter Constructor (Kreis) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{classcl__ball_ab7374e1d0fca6645c5db4050576db588}{set\+Radius} (float R) const 
+\begin{DoxyCompactList}\small\item\em (void) set\+Radius (const) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+{\bf }\par
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{classcl__ball_ae7a8d098e8ebc9295c06e11b9b6b9fa2}{is\+In\+Ball} (std\+::vector$<$ float $>$ a) const 
+\begin{DoxyCompactList}\small\item\em (bool) is\+In \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{classcl__ball_aa3d18fb5e24cc123c16a172478a9da04}{p\+X}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{classcl__ball_a097ce75b4ce4af7534abe10aa71bf918}{}\index{cl\+\_\+ball@{cl\+\_\+ball}!cl\+\_\+ball@{cl\+\_\+ball}}
+\index{cl\+\_\+ball@{cl\+\_\+ball}!cl\+\_\+ball@{cl\+\_\+ball}}
+\subsubsection[{cl\+\_\+ball()}]{\setlength{\rightskip}{0pt plus 5cm}cl\+\_\+ball\+::cl\+\_\+ball (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{classcl__ball_a097ce75b4ce4af7534abe10aa71bf918}
+
+
+Default Construtor. 
+
+Default Konstruktor der Klasse \hyperlink{classcl__ball}{cl\+\_\+ball}.
+
+initialisiert einen Kreis mit den Parametern \#m\+\_\+pos\+X und \#m\+\_\+pos\+Y \hypertarget{classcl__ball_acf320252a7845c15643e62c8051b306d}{}\index{cl\+\_\+ball@{cl\+\_\+ball}!cl\+\_\+ball@{cl\+\_\+ball}}
+\index{cl\+\_\+ball@{cl\+\_\+ball}!cl\+\_\+ball@{cl\+\_\+ball}}
+\subsubsection[{cl\+\_\+ball(std\+::vector$<$ int $>$ m\+\_\+center\+Point, float m\+\_\+radius)}]{\setlength{\rightskip}{0pt plus 5cm}cl\+\_\+ball\+::cl\+\_\+ball (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ int $>$}]{m\+\_\+center\+Point, }
+\item[{float}]{m\+\_\+radius}
+\end{DoxyParamCaption}
+)}\label{classcl__ball_acf320252a7845c15643e62c8051b306d}
+
+
+Parameter Constructor (Kreis) 
+
+Kreis wird initialisiert durch Mittelpunkt und Raduis 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em m\+\_\+center\+Point} & (vector) Mittelpunkt \\
+\hline
+\mbox{\tt in}  & {\em m\+\_\+radius} & (float) Radius\\
+\hline
+\end{DoxyParams}
+Kreis wird initialisiert durch Mittelpunkt und Radius 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em m\+\_\+center\+Point} & Mittelpunkt \\
+\hline
+\mbox{\tt in}  & {\em m\+\_\+radius$>$} & Radius \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classcl__ball_ae7a8d098e8ebc9295c06e11b9b6b9fa2}{}\index{cl\+\_\+ball@{cl\+\_\+ball}!is\+In\+Ball@{is\+In\+Ball}}
+\index{is\+In\+Ball@{is\+In\+Ball}!cl\+\_\+ball@{cl\+\_\+ball}}
+\subsubsection[{is\+In\+Ball(std\+::vector$<$ float $>$ a) const }]{\setlength{\rightskip}{0pt plus 5cm}bool cl\+\_\+ball\+::is\+In\+Ball (
+\begin{DoxyParamCaption}
+\item[{std\+::vector$<$ float $>$}]{a}
+\end{DoxyParamCaption}
+) const}\label{classcl__ball_ae7a8d098e8ebc9295c06e11b9b6b9fa2}
+
+
+(bool) is\+In 
+
+überprüft ob sich ein Punkt a in dem Kreis befindet \begin{DoxyReturn}{Returns}
+true oder false 
+\end{DoxyReturn}
+Der Abstand zwischen dem Mittelpunkt $(x_1,y_1)$ und dem Punkt a $(a_1,a_2)$ ist $\sqrt{(x_2-x_1)^2+(a_2-a_1)^2}$. Ist dieser Abstand kleiner als der Radius, liegt der Punkt a innerhalb des Kreises \hypertarget{classcl__ball_ab7374e1d0fca6645c5db4050576db588}{}\index{cl\+\_\+ball@{cl\+\_\+ball}!set\+Radius@{set\+Radius}}
+\index{set\+Radius@{set\+Radius}!cl\+\_\+ball@{cl\+\_\+ball}}
+\subsubsection[{set\+Radius(float R) const }]{\setlength{\rightskip}{0pt plus 5cm}void cl\+\_\+ball\+::set\+Radius (
+\begin{DoxyParamCaption}
+\item[{float}]{R}
+\end{DoxyParamCaption}
+) const}\label{classcl__ball_ab7374e1d0fca6645c5db4050576db588}
+
+
+(void) set\+Radius (const) 
+
+Zuweisung des Wertes R für den Radius 
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em R} & (float) \\
+\hline
+\mbox{\tt in}  & {\em m\+\_\+radius} & (float) \\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classcl__ball_aa3d18fb5e24cc123c16a172478a9da04}{}\index{cl\+\_\+ball@{cl\+\_\+ball}!p\+X@{p\+X}}
+\index{p\+X@{p\+X}!cl\+\_\+ball@{cl\+\_\+ball}}
+\subsubsection[{p\+X}]{\setlength{\rightskip}{0pt plus 5cm}float cl\+\_\+ball\+::p\+X\hspace{0.3cm}{\ttfamily [protected]}}\label{classcl__ball_aa3d18fb5e24cc123c16a172478a9da04}
+
+\begin{DoxyParams}[1]{Parameters}
+\mbox{\tt in}  & {\em $<$m\+\_\+p\+X$>$} & $<$\+Position des=\char`\"{}\char`\"{} kreises=\char`\"{}\char`\"{} in=\char`\"{}\char`\"{} x-\/achse$>$=\char`\"{}\char`\"{}$>$ \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+cl\+\_\+ball.\+h\item 
+cl\+\_\+ball.\+cpp\end{DoxyCompactItemize}
